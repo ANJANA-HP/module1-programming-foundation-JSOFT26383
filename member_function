@@ -1,0 +1,23 @@
+#include <iostream>
+using namesace std;
+class rectangle {
+public:
+    double lenght;
+    double width;
+
+    double area(){ 
+        return 2 *(lenght + width);
+    
+    }
+};
+int main() {
+    rectangle r1,r2;
+    r1.lenght = 5;   r1.width = 3;
+    r2.lenght = 10;  r2.width =2;
+    cout << r1.area() << endl;
+    cout << r2.area() << endl;
+    cout << r2.perimeter() << endl;
+    return 0:
+
+    
+}
